@@ -1,0 +1,15 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = {path = "nannou/nannou"}
+crevice = {version="0.8", features=["glam"]}
+mint = "0.5.8"
+futures = "0.3.17"
+include_wgsl = "1.1.1"
+bytemuck = { version = "1.7.2", features = [ "derive" ] }
+glam = {version="0.20.0", features=["mint"]}
